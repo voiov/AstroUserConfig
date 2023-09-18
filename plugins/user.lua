@@ -46,4 +46,6 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  -- "NvChad/nvcommunity",
+  -- { import = "nvcommunity.lsp.lsplines" },
 }
