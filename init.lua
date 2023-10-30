@@ -1,3 +1,4 @@
+local updater = require "astronvim.utils.updater"
 return {
   -- Configure AstroNvim updates
   updater = {
@@ -19,7 +20,11 @@ return {
 
   -- Set colorscheme to use
   -- colorscheme = "astrodark",
-  colorscheme = "gruvbox",
+  -- colorscheme = "gruvbox",
+  -- colorscheme = "terafox",
+  -- colorscheme = "nightfox",
+  colorscheme = "nordfox",
+  -- colorscheme = "synthwave84",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
